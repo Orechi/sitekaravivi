@@ -1,0 +1,101 @@
+
+.cabecalho { background-color: #056DB9;
+    color: white;
+    display:flex;
+    justify-content: center;
+    font-family: 'Alkatra', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+ .cabecalho-imagem { 
+  height: 25%;  
+  width: 10%;
+  background-color: #056DB9;
+  border-radius: 100%;
+
+  
+
+ }
+
+ .titulo-escola{
+    display: inline-block; margin: 52px
+
+
+
+
+ }
+ .nome{
+    display: inline-block; margin: 60px
+    16px; padding: 0px 0px; font-size: 20px;
+
+
+ }
+
+ *{margin:0; padding:0 
+
+
+ }
+
+ .titulo2{
+    background-image: linear-gradient((blue), (purple));
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+ }
+ 
+ .divisao{width: 35%;
+
+}
+
+ .karavivi{padding: 24px 0; color: black;
+
+}
+
+#texto-principal{ font-family: 'Alkatra', cursive;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 20px;
+   
+}
+
+#foto-principal{
+   width: 10%;
+   
+   
+
+}
+
+.estudante-icone {
+width:  3%;
+
+}
+
+.estudante-imagem{
+border-radius: 10%;
+width: 10%;
+
+
+}
+
+.rodape{ background-color: #056DB9;
+
+   text-align: center;
+   align-items: center;
+   color: white;
+   
+
+}
+
+.rodape-imagem{
+   height: 15%;  
+  width: 10%;
+  background-color: #056DB9;
+  align-items: center;
+  color: white;
+ 
+}
+
+
