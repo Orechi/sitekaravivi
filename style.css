@@ -104,7 +104,7 @@ width: 35%;
    text-align: center;
 }
 
-#estudante-titulo{
+.estudante-titulo{
    display: flex;
    font-display: center;
    text-align: center;
