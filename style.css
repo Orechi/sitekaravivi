@@ -105,6 +105,9 @@ width: 35%;
 }
 
 #estudante-titulo{
-display: flex;
-font-display: center;
+   display: flex;
+   font-display: center;
+   text-align: center;
+   justify-content: center;
+
 }
