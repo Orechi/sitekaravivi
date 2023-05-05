@@ -39,7 +39,7 @@ font-family: 'Nunito Sans', sans-serif;
 
  .titulo2{
     background-image: linear-gradient((blue), (purple));
-    color: white;
+    color: rgb(255, 0, 0);
     display:flex;
     justify-content: center;
     align-items: center;
