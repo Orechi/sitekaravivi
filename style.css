@@ -121,6 +121,7 @@ text-align: center;
 .projeto-demo{
 width: 200px;
 height: 200px;
+display: grid;
 
 }
 
