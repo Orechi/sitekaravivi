@@ -125,5 +125,10 @@ text-align: center;
    height: 315;
 
 }
+.projeto{
+display: grid;
+grid-template-columns:50% 50% ;
+
+}
 
 
