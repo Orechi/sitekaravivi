@@ -118,11 +118,15 @@ text-align: center;
 
 }
 
-.video-codigo{
-   width: 560;
-   height: 315;
+.projeto-demo{
+width: 200px;
+height: 200px;
 
 }
+
+
+
+
 .projeto{
    display: grid;
   
