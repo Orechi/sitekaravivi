@@ -122,6 +122,7 @@ text-align: center;
 width: 200px;
 height: 200px;
 display: grid;
+grid-template-rows: auto;
 
 }
 
