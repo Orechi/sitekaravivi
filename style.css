@@ -176,4 +176,7 @@ color: black;
 .lista-menu{
 
    display: none
+   display: block;
 }
+
+.container__botao:checked ~
