@@ -233,69 +233,59 @@ li.dropdown {
 }
 
 
-#area
-{
-  position:relative;
-  left:37%;
-  top:10em;
-  width:320px;
-  height:270px;
+.formulario{
+   width: 400px;
+   padding: 30px;
+   border:1px solid #ccc;
 }
-#area #formulario
-{
-  position:absolute;
-  display:block;
+.formulario p{
+   width: 100%;
+   font-size: 1.5em;
 }
-
-
-fieldset
-{
-  background-color:#A7C0DC;
-  width:300px;
-  height:250px;
+.field{
+   width: 100%;
+   margin: 15px 0;
 }
-legend
-{
-  font-weight:bold;
-  font-family: "Segoe UI","Arial","Times New Roman";
+.field label, 
+.field span{
+   padding-left: 10px;
+   font-size: 1.1em;
+   display: block;
+   width: 100%;
 }
-#formulario label
-{
-  position:absolute;
-  left:19px;
-  margin-right:5px;
+.radiobox label{
+   width: auto;
+   display: inline-block;
 }
-#formulario input.campo_nome
-{
-  background-color:#f1ff00;
-  position:absolute;
-  left:95px;
-  top:23px;
-  width:225px;
+input[type=text],
+input[type=email],
+textarea{
+   width: 100%;
+   padding-left: 10px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 15px;
+   border: 1px solid #ccc;
+   outline: none;
 }
-#formulario input.campo_email
-{
-  background-color:#f1ff00;
-  position:absolute;
-  left:95px;
-  margin-top:2px;
-  width:225px;
+input#nao{
+   margin-left: 30px;
 }
-#formulario textarea.msg
-{
-  position:absolute;
-  background-color:#f1ff00;
+textarea{
+   line-height: 20px;
+   padding: 10px;
+   height: 90px;
+   resize: none;
 }
-
-
-
-
-
-#formulario input.btn_submit
-{
-  border-style:dashed;
-  position:absolute;
-  bottom: 0.5em;
-  right:10px;
-  background-color:#f1ff00;
+input[type=submit]{
+   display: block;
+   background-color: #ccc;
+   height: 35px;
+   border: none;
+   outline: 0;
+   cursor: pointer;
+   width: 100px;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 15px;
 }
