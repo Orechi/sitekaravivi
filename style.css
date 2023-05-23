@@ -240,7 +240,8 @@ li.dropdown {
    width:320px;
    height:270px;
 
-
+   position:absolute;
+   display:block;
 
 }
    
