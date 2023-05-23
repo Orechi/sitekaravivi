@@ -259,7 +259,7 @@ li.dropdown {
 }
 input[type=text],
 input[type=email],
-textarea{
+.textarea{
    width: 100%;
    padding-left: 10px;
    height: 30px;
@@ -268,7 +268,7 @@ textarea{
    border: 1px solid #ccc;
    outline: none;
 }
-input#nao{
+.input#nao{
    margin-left: 30px;
 }
 textarea{
