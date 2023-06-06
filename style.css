@@ -289,4 +289,9 @@ input[type=submit]{
    border-radius: 15px;
 }
 
-.banner{text-align: center;}
+.banner{text-align: center;
+
+         padding: 10px, ;
+
+
+}
