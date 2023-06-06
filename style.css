@@ -290,7 +290,7 @@ input[type=submit]{
    border-radius: 15px;
 }
 
-.banner{ align-items: center;
+.banner{ text-align: center;
 
          padding: 10px, 400px, 50, 400px;
 
