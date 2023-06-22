@@ -3,9 +3,7 @@
    color: white;
    display: flex;
    justify-content: center;
-   font-family: 'Alkatra', cursive;
-   font-family: 'Noto Sans JP', sans-serif;
-   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Alkatra', cursive, 'Noto Sans JP', sans-serif, 'Nunito Sans', sans-serif;
 }
 
 .cabecalho-imagem {
@@ -13,33 +11,28 @@
    width: 10%;
    background-color: #056DB9;
    border-radius: 100%;
-
-
-
 }
 
 .titulo-escola {
    display: inline-block;
-   margin: 52px
+   margin: 52px;
 }
 
 .nome {
    display: inline-block;
    margin: 60px 16px;
-   padding: 0px 0px;
+   padding: 0;
    font-size: 20px;
-
-
 }
 
 * {
    margin: 0;
-   padding: 0
+   padding: 0;
 }
 
 .titulo2 {
-   background-image: linear-gradient((blue), (purple));
-   color: rgb(252, 252, 252);
+   background-image: linear-gradient(blue, purple);
+   color: #fcfcfc;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -48,50 +41,36 @@
 
 .divisao {
    width: 35%;
-
 }
 
 .karavivi {
    padding: 24px 0;
    color: black;
-
 }
 
 #texto-principal {
-   font-family: 'Alkatra', cursive;
-   font-family: 'Noto Sans JP', sans-serif;
-   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Alkatra', cursive, 'Noto Sans JP', sans-serif, 'Nunito Sans', sans-serif;
    font-size: 20px;
-
 }
 
 #foto-principal {
    width: 10%;
-
-
-
 }
 
 .estudante-icone {
    width: 3%;
-
 }
 
 .estudante-imagem {
    border-radius: 10%;
    width: 35%;
-
-
 }
 
 .rodape {
    background-color: #056DB9;
-
    text-align: center;
    align-items: center;
    color: white;
-
-
 }
 
 .rodape-imagem {
@@ -100,7 +79,6 @@
    background-color: #056DB9;
    align-items: center;
    color: white;
-
 }
 
 .estudante-todos {
@@ -111,82 +89,46 @@
 
 .estudante-titulo {
    display: flex;
-   font-display: center;
-   text-align: center;
    justify-content: center;
-   padding: 10px, 0px,
-
+   text-align: center;
+   padding: 10px 0;
 }
 
 .title {
    text-align: center;
-
-
 }
 
 .projeto-demo {
    width: 900px;
    height: 600px;
    display: grid;
-
-
 }
-
-
-
 
 .projeto {
    display: grid;
-
 }
 
 .titulo-demo {
    text-align: center;
    color: black;
-
 }
 
-.estudante-raissa {
-   width: 170px;
-   height: 150px;
-   border-radius: 10%;
-
-}
-
-.estudante-victor {
-   width: 170px;
-   height: 150px;
-   border-radius: 10%;
-
-
-
-}
-
-.estudante-dembicki {
-   width: 170px;
-   height: 150px;
-   border-radius: 10%;
-
-}
-
+.estudante-raissa,
+.estudante-victor,
+.estudante-dembicki,
 .estudante-karine {
    width: 170px;
    height: 150px;
    border-radius: 10%;
-
-
 }
 
 #texto-principal {
    color: black;
-
 }
-
 
 li {
    float: left;
 }
-
 
 li a,
 .dropbtn {
@@ -199,22 +141,14 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-   background-color: rgb(0, 0, 0);
+   background-color: #000;
 }
 
 li.dropdown {
    display: inline-block;
-   display: inline-block;
    margin: 60px 16px;
    padding: 7px 15px;
    font-size: 20px;
-}
-
-
-
-* {
-   margin: 0;
-   padding: 0
 }
 
 .dropdown-content {
@@ -222,100 +156,3 @@ li.dropdown {
    position: absolute;
    background-color: #f9f9f9;
    min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-   z-index: 1;
-}
-
-.dropdown-content a {
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: block;
-   text-align: center;
-}
-
-.dropdown-content a:hover {
-   background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-   display: block;
-
-}
-
-.formulario {
-   width: 400px;
-   padding: 30px;
-   border: 1px solid #ccc;
-}
-
-.formulario p {
-   width: 100%;
-   font-size: 1.5em;
-}
-
-.field {
-   width: 100%;
-   margin: 15px 0;
-}
-
-.field label,
-.field span {
-   padding-left: 10px;
-   font-size: 1.1em;
-   display: block;
-   width: 100%;
-}
-
-.radiobox label {
-   width: auto;
-   display: inline-block;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-   width: 100%;
-   padding-left: 10px;
-   height: 30px;
-   line-height: 30px;
-   border-radius: 15px;
-   border: 1px solid #ccc;
-   outline: none;
-}
-
-input#nao {
-   margin-left: 30px;
-}
-
-textarea {
-   line-height: 20px;
-   padding: 10px;
-   height: 90px;
-   resize: none;
-}
-
-input[type=submit] {
-   display: block;
-   background-color: #ccc;
-   height: 35px;
-   border: none;
-   outline: 0;
-   cursor: pointer;
-   width: 100px;
-   margin: 0 auto;
-   text-align: center;
-   border-radius: 15px;
-}
-
-.banner {
-   text-align: center;
-
-}
-
-#texto-programacao {
-   font-family: 'Alkatra', cursive;
-   font-family: 'Noto Sans JP', sans-serif;
-   font-family: 'Nunito Sans', sans-serif;
-   font-size: 20px;
-}
