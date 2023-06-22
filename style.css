@@ -310,9 +310,10 @@ li.dropdown {
 
    .banner {
       text-align: center;
-      
+
    }
 
-   .estrutura {
-      text-align: center;
-   }
+  .tags{text-align: center;
+         justify-content: center;
+      display: inline-block;}
+      
