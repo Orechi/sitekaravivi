@@ -208,112 +208,114 @@ li.dropdown {
    margin: 60px 16px;
    padding: 7px 15px;
    font-size: 20px;
+}
 
 
 
+* {
+   margin: 0;
+   padding: 0
+}
 
-   * {
-      margin: 0;
-      padding: 0
-   }
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+}
 
-   .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-   }
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: center;
+}
 
-   .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: center;
-   }
+.dropdown-content a:hover {
+   background-color: #f1f1f1;
+}
 
-   .dropdown-content a:hover {
-      background-color: #f1f1f1;
-   }
+.dropdown:hover .dropdown-content {
+   display: block;
 
-   .dropdown:hover .dropdown-content {
-      display: block;
+}
 
-   }
+.formulario {
+   width: 400px;
+   padding: 30px;
+   border: 1px solid #ccc;
+}
 
-   .formulario {
-      width: 400px;
-      padding: 30px;
-      border: 1px solid #ccc;
-   }
+.formulario p {
+   width: 100%;
+   font-size: 1.5em;
+}
 
-   .formulario p {
-      width: 100%;
-      font-size: 1.5em;
-   }
+.field {
+   width: 100%;
+   margin: 15px 0;
+}
 
-   .field {
-      width: 100%;
-      margin: 15px 0;
-   }
+.field label,
+.field span {
+   padding-left: 10px;
+   font-size: 1.1em;
+   display: block;
+   width: 100%;
+}
 
-   .field label,
-   .field span {
-      padding-left: 10px;
-      font-size: 1.1em;
-      display: block;
-      width: 100%;
-   }
+.radiobox label {
+   width: auto;
+   display: inline-block;
+}
 
-   .radiobox label {
-      width: auto;
-      display: inline-block;
-   }
+input[type=text],
+input[type=email],
+textarea {
+   width: 100%;
+   padding-left: 10px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 15px;
+   border: 1px solid #ccc;
+   outline: none;
+}
 
-   input[type=text],
-   input[type=email],
-   textarea {
-      width: 100%;
-      padding-left: 10px;
-      height: 30px;
-      line-height: 30px;
-      border-radius: 15px;
-      border: 1px solid #ccc;
-      outline: none;
-   }
+input#nao {
+   margin-left: 30px;
+}
 
-   input#nao {
-      margin-left: 30px;
-   }
+textarea {
+   line-height: 20px;
+   padding: 10px;
+   height: 90px;
+   resize: none;
+}
 
-   textarea {
-      line-height: 20px;
-      padding: 10px;
-      height: 90px;
-      resize: none;
-   }
+input[type=submit] {
+   display: block;
+   background-color: #ccc;
+   height: 35px;
+   border: none;
+   outline: 0;
+   cursor: pointer;
+   width: 100px;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 15px;
+}
 
-   input[type=submit] {
-      display: block;
-      background-color: #ccc;
-      height: 35px;
-      border: none;
-      outline: 0;
-      cursor: pointer;
-      width: 100px;
-      margin: 0 auto;
-      text-align: center;
-      border-radius: 15px;
-   }
+.banner {
+   text-align: center;
 
-   .banner {
-      text-align: center;
+}
 
-   }
-#texto-programacao{ font-family: 'Alkatra', cursive;
+#texto-programacao {
+   font-family: 'Alkatra', cursive;
    font-family: 'Noto Sans JP', sans-serif;
    font-family: 'Nunito Sans', sans-serif;
-   font-size: 20px;}
+   font-size: 20px;
 }
