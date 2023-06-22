@@ -312,8 +312,8 @@ li.dropdown {
       text-align: center;
 
    }
-
-  .tags{text-align: center;
-         justify-content: center;
-      display: inline-block;}
-      
+#texto-programacao{ font-family: 'Alkatra', cursive;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
+   font-size: 20px;}
+ 
