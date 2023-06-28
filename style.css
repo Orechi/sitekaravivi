@@ -332,6 +332,7 @@ input[type=submit] {
    margin: auto;
    margin-top: 20px;
    position: relative;
+   padding-left: 30, 50, 30, 50;
 }
 
 .slider li {
