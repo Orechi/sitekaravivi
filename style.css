@@ -329,6 +329,8 @@ input[type=submit] {
    display: block;
    height: 293px;
    width: 600px;
+   margin: auto;
+   margin-top: 20px;
    position: relative;
    padding-left: 30, 50, 30, 50;
 }
