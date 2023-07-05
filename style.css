@@ -86,14 +86,12 @@
 
 .rodape {
    background-color: #056DB9;
-   bottom: 0;
-   width: 100%;
-   
+   text-align: center;
+   align-items: center;
+   color: white;
+
+
 }
-
-
-
-
 
 
 .rodape-imagem {
