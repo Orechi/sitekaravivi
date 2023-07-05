@@ -87,7 +87,7 @@
 .rodape {
    background-color: #056DB9;
    bottom: 0;
-   position: fixed;
+   position: absolute;
    width: 90%;
    text-align: center;
 }
