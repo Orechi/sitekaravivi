@@ -86,19 +86,14 @@
 
 .rodape {
    background-color: #056DB9;
+   bottom: 0;
+   position: fixed;
+   width: 90%;
    text-align: center;
-   align-items: center;
-   color: white;
-
-
 }
 
-.fixar-rodape {
-   bottom: 0;
-        position: fixed;
-        width: 90%;
-        text-align: center;
-    }
+
+
 
 
 
