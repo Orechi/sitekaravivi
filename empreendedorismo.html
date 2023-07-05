@@ -39,10 +39,19 @@
 
     </header>
     
-    <footer class="rodape">
-        <img class="rodape-imagem" src="computador.png">
-                <p class="texto-rodape">Desenvolvido pela equipe Karavivi</p>
-               
-                
-
+    <div class="container body-content">
+        @RenderBody()
+        <footer class="fixarRodape">
+            <hr />
+            <p>&copy; @DateTime.Now.Year</p>
         </footer>
+    </div>
+
+    style>
+    .fixarRodape {
+        bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center;
+    }
+</style>
