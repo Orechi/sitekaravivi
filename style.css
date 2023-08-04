@@ -385,10 +385,8 @@ input[type=submit] {
    z-index: 10;
 }
 
-.texto-progamacao{
- text-align: center;
- justify-content: center;
- align-items: center;
+.tags{
+text-align: center;
 
 }
 
