@@ -13,8 +13,7 @@
    width: 10%;
    background-color: #056DB9;
    border-radius: 100%;
-   display: block;
-
+  
 
 }
 
@@ -67,6 +66,7 @@
 
 #foto-principal {
    width: 10%;
+   
 
 
 
@@ -389,5 +389,9 @@ input[type=submit] {
    .estudante-todos {
       display: grid;
       grid-template-columns: 50% 50%;
+
+   .foto-principal {
+      display: block;
+   }
 }
 }
