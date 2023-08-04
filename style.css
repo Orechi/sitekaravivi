@@ -409,7 +409,8 @@ text-align: center;
 
 @media screen and (max-width: 704px){
    .slider{
-      width: 50%asd0px;
+      width: 50%
+      height: 200px;
 
    }
 }
