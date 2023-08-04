@@ -392,6 +392,8 @@ input[type=submit] {
 
    .foto-principal {
       display: block;
+      height: 25%;
+      width: 25%;
    }
 }
 }
