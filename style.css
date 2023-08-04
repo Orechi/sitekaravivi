@@ -390,7 +390,7 @@ input[type=submit] {
       display: grid;
       grid-template-columns: 50% 50%;
 
-   #foto-principal {
+   .foto-principal {
       display: block;
       height: 25%;
       width: 25%;
