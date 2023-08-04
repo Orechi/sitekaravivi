@@ -400,5 +400,11 @@ input[type=submit] {
       height: 25%
    }
 
+}
 
+@media screen and (max-width: 704px){
+   .slider{
+      width: 25%;
+      height: 25%
+   }
 }
