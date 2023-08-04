@@ -391,7 +391,6 @@ input[type=submit] {
       grid-template-columns: 50% 50%;
 
    .foto-principal {
-      display: block;
       height: 25%;
       width: 25%;
    }
