@@ -384,3 +384,10 @@ input[type=submit] {
    visibility: visible;
    z-index: 10;
 }
+
+@media screen and (max-width: 704px) {  
+   .estudante-todos {
+      display: grid;
+      grid-template-columns: 50% 50%;
+}
+}
