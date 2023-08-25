@@ -415,4 +415,11 @@ text-align: center;
    }
 }
 
-.botao-prog
+.botao-prog {
+
+   padding: 40px 30px;
+   border-radius: 30px;
+   box-shadow: 3px 3px 0 gray;
+   font-size: 1,75em
+
+}
