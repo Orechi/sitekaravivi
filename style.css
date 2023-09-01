@@ -13,7 +13,7 @@
    width: 10%;
    background-color: #056DB9;
    border-radius: 100%;
-  
+
 
 }
 
@@ -66,7 +66,7 @@
 
 #foto-principal {
    width: 10%;
-   
+
 
 
 
@@ -385,21 +385,21 @@ input[type=submit] {
    z-index: 10;
 }
 
-.tags{
-text-align: center;
+.tags {
+   text-align: center;
 
 }
 
-@media screen and (max-width: 704px) {  
+@media screen and (max-width: 704px) {
    .estudante-todos {
       display: grid;
       grid-template-columns: 50% 50%;
 
-}
+   }
 }
 
-@media screen and (max-width: 704px){
-   .foto-principal{
+@media screen and (max-width: 704px) {
+   .foto-principal {
       display: block;
       width: 25%;
       height: 25%
@@ -407,10 +407,10 @@ text-align: center;
 
 }
 
-@media screen and (max-width: 704px){
-   .slider{
+@media screen and (max-width: 704px) {
+   .slider {
       width: 50%;
-    height: 200px;
+      height: 200px;
 
    }
 }
@@ -423,3 +423,18 @@ text-align: center;
    cursor: pointer;
 }
 
+.teclado {
+
+   Display: grid;
+   gap: 10px;
+   grid-template-columns: repeat(3, sfr);
+   padding: 10px;
+   background-color: purple;
+}
+
+.tecla {
+
+   background-color: blue;
+   color: green;
+
+}
