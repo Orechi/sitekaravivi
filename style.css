@@ -434,7 +434,7 @@ input[type=submit] {
 
 .tecla {
 
-   background-color: blue;
+   background-color: rgb(103, 206, 247);
    color: white;
    padding: 30px;
    border-radius: 50px;
