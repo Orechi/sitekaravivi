@@ -427,7 +427,7 @@ input[type=submit] {
 
    Display: grid;
    gap: 10px;
-   grid-template-columns: repeat(3, sfr);
+   grid-template-columns: repeat(3, 1fr);
    padding: 10px;
    background-color: purple;
 }
