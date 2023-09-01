@@ -443,7 +443,7 @@ input[type=submit] {
 .tecla.ativa,
 .tecla:active {
 
-   color: blue;
+   color: rgb(103, 206, 247);
    background-color: white;
    outline: none;
 }
@@ -452,7 +452,7 @@ input[type=submit] {
 .tecla:focus {
 
    outline: none;
-   box-shadow: 1px 1px 10px blue;
+   box-shadow: 1px 1px 10px rgb(103, 206, 247);
 
 }
 
