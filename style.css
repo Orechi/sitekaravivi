@@ -436,5 +436,6 @@ input[type=submit] {
 
    background-color: blue;
    color: green;
-
+   padding: 30px;
+   border-radius: 50px;
 }
