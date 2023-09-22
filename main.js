@@ -1,6 +1,6 @@
 function tocar(idAudio) {
 
-    document.querySelector(idAudio).play()
+    document.querySelector(idAudio).play();
 }
 
 const lista = document.querySelectorAll('.tecla');
@@ -9,7 +9,7 @@ let contador = 0;
 
 while (contador < lista.length) {
     lista[contador].onclick = function () {
-        tocar('som_tecla_toim')
+        tocar('#som_tecla_Toim');
 
     }
 
