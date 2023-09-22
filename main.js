@@ -3,7 +3,7 @@ function tocar(idAudio) {
     document.querySelector(idAudio).play()
 }
 
-const lista = document.querySelectorAll('.tecla')
+const lista = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
