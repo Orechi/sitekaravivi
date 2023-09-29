@@ -20,7 +20,7 @@ while (contador < lista.length) {
 
     contador = contador + 1;
     console.log(contador)
-    const idAudio = `#som_{classe}`
+    const idAudio = `#som_${classe}`
 }
 
 
